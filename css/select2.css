@@ -6,7 +6,7 @@ Version: 3.2 Timestamp: Mon Sep 10 10:38:04 PDT 2012
     display: inline-block;
     /* inline-block for ie7 */
     zoom: 1;
-    display: inline;
+    *display: inline;
     vertical-align: top; width:90%;
 }
 .dataTables_length .select2-container{ width:auto!important;}
@@ -81,7 +81,7 @@ Version: 3.2 Timestamp: Mon Sep 10 10:38:04 PDT 2012
 }
 
 .select2-drop {
-    background: #d49e9e;
+    background: #fff;
     color: #000;
     border: 1px solid #aaa;
     border-top: 0;
